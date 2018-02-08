@@ -2,6 +2,7 @@ package com.binerid.imagegridview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
     private RecycleAdapter rAdapter;
     private ImageView imageView;
+    private CardView cardView;
 
     private ArrayList<String> listGambar;
 
